@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 197, 197);
+    height: 900px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+}
+.banner__img {
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan {
+    display: grid;
+    grid-template-areas: "header header header sidebar";
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(231, 242, 245);
+    width: 450px;
+    border-radius: 15px;
+}
+.plan__item {
+    display: flex;
+    flex-direction: column;
+}
+.plan__change {
+    color: blue;
+}
+.plan__icon {
+    width: 50px;
+    height: 50px;
+}
+.paragraph {
+    color:rgb(129, 128, 128);
+}
+.content__paragraph {
+    text-align: center;
+    margin: auto 70px;
+    font-size: 18px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.button__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.2),-15px -5px 10px rgba(0, 0, 0, 0.2);
+}
